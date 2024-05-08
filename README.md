@@ -1,4 +1,4 @@
-# RornBunthong-Apple
+# RornBunthong-Apple-Clone-With-Tailwind
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://git.clp.kr/anbschool/2nd/tech-a/rorn-bonthong/rornbunthong-apple.git
+git remote add origin https://git.clp.kr/anbschool/2nd/tech-a/rorn-bonthong/rornbunthong-apple-clone-with-tailwind.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://git.clp.kr/anbschool/2nd/tech-a/rorn-bonthong/rornbunthong-apple/-/settings/integrations)
+- [ ] [Set up project integrations](https://git.clp.kr/anbschool/2nd/tech-a/rorn-bonthong/rornbunthong-apple-clone-with-tailwind/-/settings/integrations)
 
 ## Collaborate with your team
 
