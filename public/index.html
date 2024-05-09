@@ -14,14 +14,13 @@
 
 <body>
     <!-- start navbar -->
-    <nav class="z-50  text-black  flex flex-wrap items-center content-between py-1 px-4 sticky top-0 font-[400] text-[12px] backdrop-blur-[150px] ">
+    <nav class="z-50  text-black  flex flex-wrap items-center content-between py-1 px-4 sticky top-0 font-[400] text-[12px]  backdrop-blur-[750px] ">
         <div class="container mx-auto ">
             <div class="px-[22px] mx-[235px] hidden lg:flex lg:items-center lg:w-auto w-full">
                 <div class="block lg:hidden">
-                    <button class="text-white focus:outline-none">
+                    <button class="text-black lg:hidden focus:outline-none">
                         <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-                            <path fill-rule="evenodd"
-                                d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 110-2z" />
+                            <path fill-rule="evenodd" d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 110-2z"/>
                         </svg>
                     </button>
                 </div>
@@ -75,6 +74,33 @@
             </div>
         </div>
     </nav>
+
+    <!-- <nav class="text-black bg-white py-2 px-4 sticky top-0 z-50 font-normal text-xs backdrop-blur-md">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <button class="text-black lg:hidden focus:outline-none">
+                <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 110-2z"/>
+                </svg>
+            </button>
+            <ul class="hidden lg:flex lg:items-center lg:w-auto w-full justify-between">
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Logo</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Store</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Mac</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">iPad</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">iPhone</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Watch</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Vision</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">AirPods</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">TV & Home</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Entertainment</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Accessories</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Support</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Search</a></li>
+                <li role="presentation"><a class="block py-2 px-4 no-underline" href="#">Bag</a></li>
+            </ul>
+        </div>
+    </nav> -->
+    
     <!-- end navbar -->
 
     <!-- start apple's event -->
@@ -243,7 +269,7 @@
         </div>
     </section>
 
-    <!-- footer -->
+    <!--  start footer -->
     <footer class="bg-black text-white p-8">
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
@@ -294,7 +320,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class=" font-bold text-[12px] mb-[.8em] "><span>Apple Store</span></h3>
+                    <h3 class="font-bold text-[12px] mb-[.8em] "><span>Apple Store</span></h3>
                     <ul class="mt-4 space-y-2 me-[20px] text-[13px]">
                         <li><a href="#" class="text-gray-300 hover:text-gray-100">Find a Store</a></li>
                         <li><a href="#" class="text-gray-300 hover:text-gray-100">Genius Bar</a></li>
@@ -364,8 +390,42 @@
                     </ul>
                 </div>
             </div>
+        
+            <section class="pt-[37px]">
+                <div class="mb-[16px] pb-[19px] border-b border-gray-300 text-gray-300 hover:text-gray-100 space-y-2 me-[20px] text-[13px]" x-ms-format-detection="none">
+                    More ways to shop: 
+                    <a href="/retail/" class="text-blue-600 underline">Find an Apple Store</a> or <a href="https://locate.apple.com/" class="text-blue-600 underline">other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+                </div>
+                
+                <div class=" text-gray-300 hover:text-gray-100 mb-[16px] me-[20px] text-[13px]">
+                    <div class="float-left max-h-[9999px] me-[30px] mt-[5px]">Copyright © 2024 Apple Inc. All rights reserved.
+                    </div>
+                    <ul class="float-left relative top-[-5px] z-[1] me-[30px] mt-[5px]" role="list">
+                        <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                            <a href="/legal/privacy/" >Privacy Policy |</a>
+                        </li>
+                        <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                            <a href="/legal/internet-services/terms/site.html">Terms of Use |</a>
+                        </li>
+                        <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                            <a href="/us/shop/goto/help/sales_refunds">Sales and Refunds |</a>
+                        </li>
+                        <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                            <a href="/legal/">Legal |</a>
+                        </li>
+                        <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                            <a href="/sitemap/" >Site Map</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ac-gf-footer-locale inline-block">
+                    <a class="ac-gf-footer-locale-link relative me-[20px] text-[13px] ml-[355px]" href="/choose-country-region/">United States</a>
+                </div>
+            </section>
         </div>
     </footer>
+    <!-- end footer -->
 
 
 
