@@ -7,13 +7,15 @@
     <title>Store</title>
     <!-- output css link -->
     <link rel="stylesheet" href="output.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="store.css">
     <!-- tailwind cdn link -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-[#F5F5F7]">
     <!-- start navbar -->
-    <nav class="z-10 text-[12px] py-4 px-4 bg-[#f5f5f7] sticky top-0 backdrop-blur-[1750px]">
+    <nav class="z-10 text-[12px] py-4 px-4 bg-[#f5f5f7] top-0 backdrop-blur-[1750px]">
         <div class="flex items-center justify-between max-w-[996px] mx-auto">
             <a href="index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple"
@@ -79,7 +81,8 @@
     <!-- end promotion text under navbar -->
 
     <!-- start heading -->
-    <div class="mx-[140px]">
+
+    <!-- <div class="mx-[140px]">
         <div class="my-[80px] flex justify-between">
             <div class="text-[46px] flex w-[620px] font-[600]">
                 <div>
@@ -110,11 +113,57 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+
+
+
+    <div class="mx-4 sm:mx-8 lg:mx-[25px] xl:mx-[140px]">
+        <div class="my-8 sm:my-16 lg:my-[80px] flex flex-col lg:flex-row justify-between">
+            <div class="text-2xl sm:text-4xl lg:text-[46px] flex w-full lg:w-[620px] font-semibold ">
+                <div>
+                    Store.
+                    <span class="text-gray-500">The best way to buy the products you love.</span>
+                </div>
+            </div>
+            <div class="mt-8 lg:mt-0">
+                <div class="flex items-center">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-chat-earth-day-specialist-icon-202404_AV1?wid=70&hei=70&fmt=jpeg&qlt=90&.v=1711501362436"
+                        class="w-9 h-9 sm:w-[35px] sm:h-[35px]" alt="profile img" />
+                    <div class="ml-3 sm:ml-[12px]">
+                        <p class="font-medium">Need shopping help?</p>
+                        <a href="https://www.apple.com/store#" class="text-blue-500">Ask a Specialist</a>
+                    </div>
+                </div>
+                <div class="flex mt-4 sm:mt-[18px] items-center">
+                    <svg width="25" height="35" viewBox="0 0 25 35" aria-hidden="true">
+                        <path d="m0 0h25v35h-25z" fill="none"></path>
+                        <path
+                            d="m12.4934 4.675a10.5617 10.5617 0 0 1 4.177.8275 10.8868 10.8868 0 0 1 5.7467 5.747 10.4988 10.4988 0 0 1 .8329 4.1777 10.3219 10.3219 0 0 1 -.6421 3.5951 10.8948 10.8948 0 0 1 -1.8669 3.2062 12.8406 12.8406 0 0 1 -2.9537 2.5775c-.984.6179-1.8226 1.1843-2.4931 1.6839a9.5187 9.5187 0 0 0 -1.7742 1.6788 6.8587 6.8587 0 0 0 -1.02 1.8034 6.8213 6.8213 0 0 0 -1.0278-1.8062 9.8247 9.8247 0 0 0 -1.7708-1.6742c-.6644-.4987-1.5014-1.0658-2.485-1.6834a12.5961 12.5961 0 0 1 -2.9617-2.5777 10.99 10.99 0 0 1 -1.8636-3.2083 10.3421 10.3421 0 0 1 -.6411-3.5951 10.5153 10.5153 0 0 1 .8319-4.1772 10.9669 10.9669 0 0 1 2.3209-3.4333 10.85 10.85 0 0 1 3.4278-2.3142 10.52 10.52 0 0 1 4.1628-.8275m0-1a11.4634 11.4634 0 0 0 -4.5561.9081 11.89 11.89 0 0 0 -6.2738 6.2709 11.4566 11.4566 0 0 0 -.9135 4.5732 11.2871 11.2871 0 0 0 .703 3.9416 11.9349 11.9349 0 0 0 2.0323 3.5006 13.5349 13.5349 0 0 0 3.1956 2.7835q1.446.9079 2.42 1.6384a8.7962 8.7962 0 0 1 1.5912 1.5 5.9225 5.9225 0 0 1 .9731 1.81q.25.7236.8285.7238t.8417-.7238a5.9779 5.9779 0 0 1 .967-1.81 8.4991 8.4991 0 0 1 1.59-1.5q.98-.73 2.4268-1.6384a13.7877 13.7877 0 0 0 3.19-2.7835 11.8367 11.8367 0 0 0 2.0373-3.5006 11.263 11.263 0 0 0 .7041-3.9416 11.44 11.44 0 0 0 -.9145-4.5732 11.8867 11.8867 0 0 0 -6.2717-6.2709 11.5044 11.5044 0 0 0 -4.57-.9081zm3.8566 9.71a2.3254 2.3254 0 0 0 -1.078 1.94 2.2152 2.2152 0 0 0 1.353 2.0506 4.7326 4.7326 0 0 1 -.693 1.4443c-.429.6174-.902 1.2458-1.584 1.2458-.693 0-.858-.4079-1.661-.4079-.77 0-1.045.4189-1.672.4189-.638 0-1.078-.5733-1.584-1.29a6.3114 6.3114 0 0 1 -1.056-3.3625 2.7185 2.7185 0 0 1 2.541-3.0208c.682 0 1.232.441 1.65.441.407 0 1.023-.4631 1.782-.4631a2.3483 2.3483 0 0 1 2.002 1.0036zm-3.729-1.1135c-.055 0-.099-.0111-.143-.0111 0-.033-.011-.11-.011-.1874a2.26 2.26 0 0 1 .561-1.3781 2.19 2.19 0 0 1 1.485-.7717 1.0735 1.0735 0 0 1 .011.1984 2.3284 2.3284 0 0 1 -.528 1.4222 1.9664 1.9664 0 0 1 -1.375.7276z">
+                        </path>
+                    </svg>
+                    <div class="ml-5 sm:ml-[20px]">
+                        <p class="font-medium">Visit an Apple Store</p>
+                        <a href="https://www.apple.com/retail" class="text-blue-500">Find one near you ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    
+
+
+
+
+
+
+
+
     <!-- end heading -->
 
     <!-- start list product -->
-    <div class=" my-[90px]">
+
+    <!-- <div class=" my-[90px] ">
         <div class="flex pl-[140px] gap-10 text-[13px] font-[500] overflow-x-scroll ">
             <div>
                 <div class="w-[130px]">
@@ -215,22 +264,94 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+
+
+    <div class="my-[90px] ">
+        <div class="flex pl-4 lg:pl-[25px] xl:mx-[140px] gap-4 lg:gap-10 text-[13px] font-[500] overflow-x-auto scrollbar-hide">
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=400&hei=260&fmt=png-alpha&.v=1696964122666" alt="mac" />
+                <div class="text-center m-[10px]">
+                    <p>Mac</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_US?wid=400&hei=260&fmt=png-alpha&.v=1692971740190" alt="iPhone" />
+                <div class="text-center m-[10px]">
+                    <p>iPhone</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202405?wid=400&hei=260&fmt=png-alpha&.v=1714168620875" alt="iPad" />
+                <div class="text-center m-[10px]">
+                    <p>iPad</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202309?wid=400&hei=260&fmt=png-alpha&.v=1693703822208" alt="Apple Watch" />
+                <div class="text-center m-[10px]">
+                    <p>Apple Watch</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-vision-pro-nav-202401?wid=400&hei=260&fmt=png-alpha&.v=1702403595269" alt="Apple Vision Pro" />
+                <div class="text-center m-[10px]">
+                    <p>Apple Vision Pro</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=400&hei=260&fmt=png-alpha&.v=1660676485885" alt="AirPods" />
+                <div class="text-center m-[10px]">
+                    <p>AirPods</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=1664628458484" alt="Apple TV 4K" />
+                <div class="text-center m-[10px]">
+                    <p>Apple TV 4K</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&hei=260&fmt=png-alpha&.v=1670389216654" alt="HomePod" />
+                <div class="text-center m-[10px]">
+                    <p>HomePod</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202403?wid=400&hei=260&fmt=png-alpha&.v=1707850611597" alt="Accessories" />
+                <div class="text-center m-[10px]">
+                    <p>Accessories</p>
+                </div>
+            </div>
+            <div class="w-[130px] flex-shrink-0">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-holiday-giftcards-asit-agc-nav-202111?wid=400&hei=260&fmt=png-alpha&.v=1653339351054" alt="Apple Gift Card" />
+                <div class="text-center m-[10px]">
+                    <p>Apple Gift Card</p>
+                </div>
+            </div>
+        </div>
     </div>
+    
+
+
+
+
 
     <!-- end list product -->
 
     <!-- start product card -->
 
     <div class=" mt-[105px]">
-        <div class="text-[28px] font-[500] ">
-            <div class="pl-[140px]">
+        <div class="text-[28px] font-[500] scrollbar-hide">
+            <div class="lg:pl-[25px] xl:mx-[140px] md:pl-[25px] pl-[20px]">
                 The latest.
                 <span class="text-[#6e6e73]">Take a look at what’s new, right now.</span>
             </div>
 
-            <div class="pl-[140px] flex gap-5 overflow-x-scroll">
+            <div class="lg:pl-[25px] sm:pl-[140px] xl:pl-[140px] pl-[20px] md:pl-[25px] flex gap-5 overflow-x-scroll scrollbar-hide">
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-ipad-pro-202405?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1713308272816"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -244,7 +365,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-ipad-air-202405?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1713308272877"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -258,7 +379,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -272,7 +393,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-vision-pro-202401?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1705097770616"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -286,7 +407,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-air-202402?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1707259289595"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -300,7 +421,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-s9-202309?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1692720183508"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -314,7 +435,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-ipad-202310?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1696875297972"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -328,7 +449,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692719973220"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -342,7 +463,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1696964122967"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -356,7 +477,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-ultra-202309?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1692720471465"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -370,7 +491,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-se-202403?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1708726161435"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -384,7 +505,7 @@
                     </div>
                 </div>
 
-                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
+                <div class="transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150 ">
                     <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-bands-202403?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1709069122317"
                             alt="ipad pro" class="rounded-[17px]" />
@@ -398,27 +519,29 @@
                     </div>
                 </div>
 
-
-
-
-
             </div>
 
         </div>
     </div>
 
 
+    
+    
+
+    
+
+
     <!-- end product card -->
 
     <!-- start card section 3 -->
     <div class=" mt-[80px]">
-        <div class="text-[28px] font-[500] ">
-            <div class="pl-[140px]">
+        <div class="text-[28px] font-[500] scrollbar-hide">
+            <div class="lg:pl-[25px] xl:mx-[140px] md:pl-[25px] pl-[20px]">
                 Help is here.
                 <span class="text-[#6e6e73]">Whenever and however you need it.</span>
             </div>
 
-            <div class="pl-[140px] flex gap-5 overflow-x-scroll">
+            <div class="lg:pl-[25px] sm:pl-[140px] xl:pl-[140px] pl-[20px] md:pl-[25px] flex gap-5 overflow-x-scroll">
                 <div
                     class="drop-shadow-md transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
                     <div class="card w-[480px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
@@ -493,12 +616,12 @@
     <!-- start card section 4 -->
     <div class=" mt-[80px]">
         <div class="text-[28px] font-[500] ">
-            <div class="pl-[140px]">
+            <div class="lg:pl-[25px] xl:mx-[140px] md:pl-[25px] pl-[20px]">
                 The Apple Store difference.
                 <span class="text-[#6e6e73]">Even more reasons to shop with us.</span>
             </div>
 
-            <div class="pl-[140px] flex gap-5 overflow-x-scroll">
+            <div class="lg:pl-[25px] sm:pl-[140px] xl:pl-[140px] pl-[20px] md:pl-[25px] flex gap-5 overflow-x-scroll">
                 <div
                     class="drop-shadow-lg transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
                     <div
@@ -639,12 +762,12 @@
 
         <div class=" mt-[80px]">
             <div class="text-[28px] font-[500] ">
-                <div class="pl-[140px]">
+                <div class="lg:pl-[25px] xl:mx-[140px] md:pl-[25px] pl-[20px]">
                     Accessories.
                     <span class="text-[#6e6e73]">Essentials that pair perfectly with your favorite devices.</span>
                 </div>
 
-                <div class="pl-[140px] flex gap-5 overflow-x-scroll">
+                <div class="lg:pl-[25px] sm:pl-[140px] xl:pl-[140px] pl-[20px] md:pl-[25px] flex gap-5 overflow-x-scroll">
                     <div
                         class="drop-shadow-md transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
                         <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
@@ -914,12 +1037,12 @@
         <!-- start card section 6 -->
         <div class=" mt-[80px]">
             <div class="text-[28px] font-[500] ">
-                <div class="pl-[140px]">
+                <div class="lg:pl-[25px] xl:mx-[140px] md:pl-[25px] pl-[20px]">
                     Loud and clear.
                     <span class="text-[#6e6e73]">Unparalleled choices for rich, high-quality sound.</span>
                 </div>
 
-                <div class="pl-[140px] flex gap-5 overflow-x-scroll">
+                <div class="lg:pl-[25px] sm:pl-[140px] xl:pl-[140px] pl-[20px] md:pl-[25px] flex gap-5 overflow-x-scroll">
                     <div
                         class="drop-shadow-md transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
                         <div class="card w-[400px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
@@ -1173,12 +1296,12 @@
 
         <div class=" mt-[80px]">
             <div class="text-[28px] font-[500] ">
-                <div class="pl-[140px]">
+                <div class="lg:pl-[25px] xl:mx-[140px] md:pl-[25px] pl-[20px]">
                     The Apple experience.
                     <span class="text-[#6e6e73]">Do even more with Apple products and services.</span>
                 </div>
 
-                <div class="pl-[140px] flex gap-5 overflow-x-scroll">
+                <div class="lg:pl-[25px] sm:pl-[140px] xl:pl-[140px] pl-[20px] md:pl-[25px] flex gap-5 overflow-x-scroll">
                     <div
                         class="drop-shadow-md transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
                         <div class="card w-[480px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
@@ -1258,12 +1381,12 @@
 
         <div class=" mt-[80px]">
             <div class="text-[28px] font-[500] ">
-                <div class="pl-[140px]">
+                <div class="lg:pl-[25px] xl:mx-[140px] md:pl-[25px] pl-[20px]">
                     Spacial Stores.
                     <span class="text-[#6e6e73]">Exclusive savings for education, businesses, and more.</span>
                 </div>
 
-                <div class="pl-[140px] flex gap-5 overflow-x-scroll">
+                <div class="lg:pl-[25px] sm:pl-[140px] xl:pl-[140px] pl-[20px] md:pl-[25px] flex gap-5 overflow-x-scroll">
                     <div
                         class="drop-shadow-md transition ease-out delay-150 hover:-translate-x-2 hover:scale-40 duration-150">
                         <div class="card w-[480px] h-[500px] mt-[18px] block relative scroll-ml-6 snap-start">
@@ -1344,7 +1467,7 @@
 
         <!--start quick link section  -->
 
-        <div class="pl-[140px] mt-[70px] mb-[40px]">
+        <!-- <div class="pl-[140px] mt-[70px] mb-[40px]">
             <div class="text-[28px] mb-[10px]">
                 <h3>Quick Links</h3>
             </div>
@@ -1362,13 +1485,35 @@
                     <div>Your Saves</div>
                 </div>
             </div>
+        </div> -->
+
+        <div class="lg:pl-[25px] xl:mx-[140px] mt-[70px] mb-[40px]">
+            <div class="text-[28px] mb-[10px]">
+                <h3>Quick Links</h3>
+            </div>
+            <div class="flex gap-3 text-[14px] font-[400] overflow-x-auto md:overflow-x-visible">
+                <div class="border-[1px] border-black rounded-full p-[7px] px-[15px] hover:bg-black hover:text-white whitespace-nowrap">
+                    <div>Order Status</div>
+                </div>
+                <div class="border-[1px] border-black rounded-full p-[7px] px-[15px] hover:bg-black hover:text-white whitespace-nowrap">
+                    <div>Shopping Help</div>
+                </div>
+                <div class="border-[1px] border-black rounded-full p-[7px] px-[15px] hover:bg-black hover:text-white whitespace-nowrap">
+                    <div>Returns</div>
+                </div>
+                <div class="border-[1px] border-black rounded-full p-[7px] px-[15px] hover:bg-black hover:text-white whitespace-nowrap">
+                    <div>Your Saves</div>
+                </div>
+            </div>
         </div>
-
-
+    
         <!--end quick link section  -->
 
-        <!-- start footnote section -->
+
+        <!-- start footnote and footer -->
+
         <div class="footnote px-[22px] text-[12px] text-[#767678] max-w-[1000px] mx-auto">
+            <!-- start footnote section -->
             <div>
                 <p role="listitem">* Pricing for iPhone 15 and iPhone 15 Plus includes a $30 connectivity discount that
                     requires activation with AT&amp;T, T-Mobile, or Verizon. Available to qualified customers and
@@ -1496,187 +1641,462 @@
 
 
         <!--  start footer -->
-        <footer class=" text-[#1D1D20] p-8">
-            <div class="px-4">
-                <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
-                    <div>
-                        <h3 class=" font-bold text-[12px] mb-[.8em]"><span>Shop and Learn</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Store</a></li>
-                            <li><a href="#" class="hover:underline">Mac</a></li>
-                            <li><a href="#" class="hover:underline">iPad</a></li>
-                            <li><a href="#" class="hover:underline">iPhone</a></li>
-                            <li><a href="#" class="hover:underline">Watch</a></li>
-                            <li><a href="#" class="hover:underline">Vision</a></li>
-                            <li><a href="#" class="hover:underline">AirPods</a></li>
-                            <li><a href="#" class="hover:underline">TV & Home</a></li>
-                            <li><a href="#" class="hover:underline">AirTag</a></li>
-                            <li><a href="#" class="hover:underline">Accessories</a></li>
-                            <li><a href="#" class="hover:underline">Gift Cards</a></li>
-    
-                        </ul>
-                        <h3 class=" font-bold text-[12px] mt-[20px]"><span>Apple Wallet</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px]">
-                            <li><a href="#" class="hover:underline">Wallet</a></li>
-                            <li><a href="#" class="hover:underline">Apple Card</a></li>
-                            <li><a href="#" class="hover:underline">Apple Pay</a></li>
-                            <li><a href="#" class="hover:underline">Apple Cash</a></li>
-    
-    
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class=" font-bold text-[12px] mb-[.8em] "><span>Account</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Manage Your Account ID</a></li>
-                            <li><a href="#" class="hover:underline">Apple Store Account</a></li>
-                            <li><a href="#" class="hover:underline">iCloud.com</a></li>
-                        </ul>
-                        <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>Entertainment</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Apple One</a></li>
-                            <li><a href="#" class="hover:underline">Apple TV+</a></li>
-                            <li><a href="#" class="hover:underline">Apple Music</a></li>
-                            <li><a href="#" class="hover:underline">Apple Archade</a></li>
-                            <li><a href="#" class="hover:underline">Apple Fitness+</a></li>
-                            <li><a href="#" class="hover:underline">Apple News+</a></li>
-                            <li><a href="#" class="hover:underline">Apple Podcase+</a></li>
-                            <li><a href="#" class="hover:underline">Apple Books</a></li>
-                            <li><a href="#" class="hover:underline">Apple Store</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-[12px] mb-[.8em] "><span>Apple Store</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Find a Store</a></li>
-                            <li><a href="#" class="hover:underline">Genius Bar</a></li>
-                            <li><a href="#" class="hover:underline">Today at Apple</a></li>
-                            <li><a href="#" class="hover:underline">Group Reservations</a></li>
-                            <li><a href="#" class="hover:underline">Apple Camp</a></li>
-                            <li><a href="#" class="hover:underline">Apple Store App</a></li>
-                            <li><a href="#" class="hover:underline">Certified Refurbished</a></li>
-                            <li><a href="#" class="hover:underline">Apple trade In</a></li>
-                            <li><a href="#" class="hover:underline">Financing</a></li>
-                            <li><a href="#" class="hover:underline">Carrier Deals at Apple</a></li>
-                            <li><a href="#" class="hover:underline">Order Status</a></li>
-                            <li><a href="#" class="hover:underline">Shopping Help</a></li>
-    
-    
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class=" font-bold text-[12px] mb-[.8em]"><span>For Business</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Apple and Business</a></li>
-                            <li><a href="#" class="hover:underline">Shop for Business</a></li>
-                        </ul>
-                        <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>For Education</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Apple and Education</a></li>
-                            <li><a href="#" class="hover:underline">Shop for K-12</a></li>
-                            <li><a href="#" class="hover:underline">Shop for College</a></li>
-    
-                        </ul>
-                        <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>For Healthcare</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Apple and Healthcare</a></li>
-                            <li><a href="#" class="hover:underline">Health on Apple Watch</a></li>
-                            <li><a href="#" class="hover:underline">Health Records on iPhone</a></li>
-    
-                        </ul>
-                        <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>For Government</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Shop for Government</a></li>
-                            <li><a href="#" class="hover:underline">Shop for Veterans and Military</a></li>
-    
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class=" font-bold text-[12px] mb-[.8em] "><span>Apple Values</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Accessibility</a></li>
-                            <li><a href="#" class="hover:underline">Education</a></li>
-                            <li><a href="#" class="hover:underline">Environment</a></li>
-                            <li><a href="#" class="hover:underline">Inclusion and Diversity</a></li>
-                            <li><a href="#" class="hover:underline">Privacy</a></li>
-                            <li><a href="#" class="hover:underline">Recial Equity and Justice</a></li>
-                            <li><a href="#" class="hover:underline">Supply Chain</a></li>
-    
-                        </ul>
-                        <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>About Apple</span></h3>
-                        <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
-                            <li><a href="#" class="hover:underline">Newsroom</a></li>
-                            <li><a href="#" class="hover:underline">Apple Leadership</a></li>
-                            <li><a href="#" class="hover:underline">Career Opportunities</a></li>
-                            <li><a href="#" class="hover:underline">Investors</a></li>
-                            <li><a href="#" class="hover:underline">Ethics & Compliance</a></li>
-                            <li><a href="#" class="hover:underline">Events</a></li>
-                            <li><a href="#" class="hover:underline">Contact Apple</a></li>
-    
-                        </ul>
-                    </div>
-                </div>
-            
-                <section class="pt-[37px]">
-                    <div class="mb-[16px] pb-[19px] border-b border-gray-300 hover:underline space-y-2 me-[20px] text-[12px] text-[#767678]" x-ms-format-detection="none">
-                        More ways to shop: 
-                        <a href="/retail/" class="text-blue-600 underline">Find an Apple Store</a> or <a href="https://locate.apple.com/" class="text-blue-600 underline">other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
-                    </div>
-                    <div class="">
-    
-                        <div class=" hover:underline mb-[16px] me-[20px] text-[12px] text-[#767678]">
-                            <div class="float-left max-h-[9999px] me-[30px] mt-[5px]">Copyright © 2024 Apple Inc. All rights reserved.
-                            </div>
-                            <ul class="float-left relative top-[-5px] z-[1] me-[30px] mt-[5px]" role="list">
-                                <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
-                                    <a href="/legal/privacy/" >Privacy Policy |</a>
-                                </li>
-                                <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
-                                    <a href="/legal/internet-services/terms/site.html">Terms of Use |</a>
-                                </li>
-                                <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
-                                    <a href="/us/shop/goto/help/sales_refunds">Sales and Refunds |</a>
-                                </li>
-                                <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
-                                    <a href="/legal/">Legal |</a>
-                                </li>
-                                <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
-                                    <a href="/sitemap/" >Site Map</a>
-                                </li>
+            <footer class=" text-[#1D1D20] pt-8 bg-[#F5F5F7] max-md:hidden">
+                <div class="px-2 max-w-[1000px] mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                        <div>
+                            <h3 class=" font-bold text-[12px] mb-[.8em]"><span>Shop and Learn</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Store</a></li>
+                                <li><a href="#" class="hover:underline">Mac</a></li>
+                                <li><a href="#" class="hover:underline">iPad</a></li>
+                                <li><a href="#" class="hover:underline">iPhone</a></li>
+                                <li><a href="#" class="hover:underline">Watch</a></li>
+                                <li><a href="#" class="hover:underline">Vision</a></li>
+                                <li><a href="#" class="hover:underline">AirPods</a></li>
+                                <li><a href="#" class="hover:underline">TV & Home</a></li>
+                                <li><a href="#" class="hover:underline">AirTag</a></li>
+                                <li><a href="#" class="hover:underline">Accessories</a></li>
+                                <li><a href="#" class="hover:underline">Gift Cards</a></li>
+
+                            </ul>
+                            <h3 class=" font-bold text-[12px] mt-[20px]"><span>Apple Wallet</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px]">
+                                <li><a href="#" class="hover:underline">Wallet</a></li>
+                                <li><a href="#" class="hover:underline">Apple Card</a></li>
+                                <li><a href="#" class="hover:underline">Apple Pay</a></li>
+                                <li><a href="#" class="hover:underline">Apple Cash</a></li>
+
+
                             </ul>
                         </div>
-        
-                        <div class="ac-gf-footer-locale inline-block">
-                            <a class="ac-gf-footer-locale-link relative me-[20px] text-[12px] text-[#767678] ml-[10px]" href="/choose-country-region/">United States</a>
+                        <div>
+                            <h3 class=" font-bold text-[12px] mb-[.8em] "><span>Account</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Manage Your Account ID</a></li>
+                                <li><a href="#" class="hover:underline">Apple Store Account</a></li>
+                                <li><a href="#" class="hover:underline">iCloud.com</a></li>
+                            </ul>
+                            <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>Entertainment</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Apple One</a></li>
+                                <li><a href="#" class="hover:underline">Apple TV+</a></li>
+                                <li><a href="#" class="hover:underline">Apple Music</a></li>
+                                <li><a href="#" class="hover:underline">Apple Archade</a></li>
+                                <li><a href="#" class="hover:underline">Apple Fitness+</a></li>
+                                <li><a href="#" class="hover:underline">Apple News+</a></li>
+                                <li><a href="#" class="hover:underline">Apple Podcase+</a></li>
+                                <li><a href="#" class="hover:underline">Apple Books</a></li>
+                                <li><a href="#" class="hover:underline">Apple Store</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-[12px] mb-[.8em] "><span>Apple Store</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Find a Store</a></li>
+                                <li><a href="#" class="hover:underline">Genius Bar</a></li>
+                                <li><a href="#" class="hover:underline">Today at Apple</a></li>
+                                <li><a href="#" class="hover:underline">Group Reservations</a></li>
+                                <li><a href="#" class="hover:underline">Apple Camp</a></li>
+                                <li><a href="#" class="hover:underline">Apple Store App</a></li>
+                                <li><a href="#" class="hover:underline">Certified Refurbished</a></li>
+                                <li><a href="#" class="hover:underline">Apple trade In</a></li>
+                                <li><a href="#" class="hover:underline">Financing</a></li>
+                                <li><a href="#" class="hover:underline">Carrier Deals at Apple</a></li>
+                                <li><a href="#" class="hover:underline">Order Status</a></li>
+                                <li><a href="#" class="hover:underline">Shopping Help</a></li>
+
+
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class=" font-bold text-[12px] mb-[.8em]"><span>For Business</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Apple and Business</a></li>
+                                <li><a href="#" class="hover:underline">Shop for Business</a></li>
+                            </ul>
+                            <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>For Education</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Apple and Education</a></li>
+                                <li><a href="#" class="hover:underline">Shop for K-12</a></li>
+                                <li><a href="#" class="hover:underline">Shop for College</a></li>
+
+                            </ul>
+                            <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>For Healthcare</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Apple and Healthcare</a></li>
+                                <li><a href="#" class="hover:underline">Health on Apple Watch</a></li>
+                                <li><a href="#" class="hover:underline">Health Records on iPhone</a></li>
+
+                            </ul>
+                            <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>For Government</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Shop for Government</a></li>
+                                <li><a href="#" class="hover:underline">Shop for Veterans and Military</a></li>
+
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class=" font-bold text-[12px] mb-[.8em] "><span>Apple Values</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Accessibility</a></li>
+                                <li><a href="#" class="hover:underline">Education</a></li>
+                                <li><a href="#" class="hover:underline">Environment</a></li>
+                                <li><a href="#" class="hover:underline">Inclusion and Diversity</a></li>
+                                <li><a href="#" class="hover:underline">Privacy</a></li>
+                                <li><a href="#" class="hover:underline">Recial Equity and Justice</a></li>
+                                <li><a href="#" class="hover:underline">Supply Chain</a></li>
+
+                            </ul>
+                            <h3 class=" font-bold text-[12px] mb-[.8em] mt-[20px]"><span>About Apple</span></h3>
+                            <ul class="mt-4 space-y-2 me-[20px] text-[13px] text-[#767678]">
+                                <li><a href="#" class="hover:underline">Newsroom</a></li>
+                                <li><a href="#" class="hover:underline">Apple Leadership</a></li>
+                                <li><a href="#" class="hover:underline">Career Opportunities</a></li>
+                                <li><a href="#" class="hover:underline">Investors</a></li>
+                                <li><a href="#" class="hover:underline">Ethics & Compliance</a></li>
+                                <li><a href="#" class="hover:underline">Events</a></li>
+                                <li><a href="#" class="hover:underline">Contact Apple</a></li>
+
+                            </ul>
                         </div>
                     </div>
-                </section>
-            </div>
-        </footer>
+                
+                    <section class="pt-[37px]">
+                        <div class="mb-[16px] pb-[19px] border-b border-gray-300 hover:underline space-y-2 me-[20px] text-[12px] text-[#767678]" x-ms-format-detection="none">
+                            More ways to shop: 
+                            <a href="/retail/" class="text-blue-600 underline">Find an Apple Store</a> or <a href="https://locate.apple.com/" class="text-blue-600 underline">other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+                        </div>
+                        <div class="">
+
+                            <div class=" hover:underline mb-[16px] me-[20px] text-[12px] text-[#767678]">
+                                <div class="float-left max-h-[9999px] me-[30px] mt-[5px]">Copyright © 2024 Apple Inc. All rights reserved.
+                                </div>
+                                <ul class="float-left relative top-[-5px] z-[1] me-[30px] mt-[5px]" role="list">
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/legal/privacy/" >Privacy Policy |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/legal/internet-services/terms/site.html">Terms of Use |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/us/shop/goto/help/sales_refunds">Sales and Refunds |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/legal/">Legal |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/sitemap/" >Site Map</a>
+                                    </li>
+                                </ul>
+                            </div>
+            
+                            <div class="ac-gf-footer-locale inline-block">
+                                <a class="ac-gf-footer-locale-link relative me-[20px] text-[12px] text-[#767678] ml-[120px]" href="/choose-country-region/">United States</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </footer>
     <!-- end footer -->
-</div>
+
+    <!-- start footer for medium screen and small screen -->
+
+            <footer class="text-[#1D1D20] pt-5 bg-[#F5F5F7] md:hidden">
+                <div class="px-1 max-w-[1000px] mx-auto">
+                    <div id="accordion-flush" data-accordion="collapse">
+                        
+                        <h2 id="accordion-btn">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">
+                                <span class="text-[12px] text-black">Shop and Learn</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-container" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Store</a></li>
+                                    <li><a href="#" class="hover:underline">Mac</a></li>
+                                    <li><a href="#" class="hover:underline">iPad</a></li>
+                                    <li><a href="#" class="hover:underline">iPhone</a></li>
+                                    <li><a href="#" class="hover:underline">Watch</a></li>
+                                    <li><a href="#" class="hover:underline">Vision</a></li>
+                                    <li><a href="#" class="hover:underline">AirPods</a></li>
+                                    <li><a href="#" class="hover:underline">TV & Home</a></li>
+                                    <li><a href="#" class="hover:underline">AirTag</a></li>
+                                    <li><a href="#" class="hover:underline">Accessories</a></li>
+                                    <li><a href="#" class="hover:underline">Gift Cards</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-2">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">                        
+                                <span class="text-[12px] text-black">Apple Wallet</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-2" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Wallet</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Card</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Pay</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Cash</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-3">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">                        
+                                <span class="text-[12px] text-black">Account</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-3" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Manage Your Account ID</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Store Account</a></li>
+                                    <li><a href="#" class="hover:underline">iCloud.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-4">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">                        
+                                <span class="text-[12px] text-black">Entertainment</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-4" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Apple One</a></li>
+                                    <li><a href="#" class="hover:underline">Apple TV+</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Music</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Arcade</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Fitness+</a></li>
+                                    <li><a href="#" class="hover:underline">Apple News+</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Podcasts</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Books</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Store</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-5">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">                        
+                                <span class="text-[12px] text-black">Apple Store</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-5" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Find a Store</a></li>
+                                    <li><a href="#" class="hover:underline">Genius Bar</a></li>
+                                    <li><a href="#" class="hover:underline">Today at Apple</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Camp</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Store App</a></li>
+                                    <li><a href="#" class="hover:underline">Certified Refurbished</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Trade In</a></li>
+                                    <li><a href="#" class="hover:underline">Financing</a></li>
+                                    <li><a href="#" class="hover:underline">Carrier Deals at Apple</a></li>
+                                    <li><a href="#" class="hover:underline">Order Status</a></li>
+                                    <li><a href="#" class="hover:underline">Shopping Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-6">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">                         
+                                <span class="text-[12px] text-black">For Business</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-6" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Apple and Business</a></li>
+                                    <li><a href="#" class="hover:underline">Shop for Business</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-7">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">                       
+                                <span class="text-[12px] text-black">For Education</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-7" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Apple and Education</a></li>
+                                    <li><a href="#" class="hover:underline">Shop for K-12</a></li>
+                                    <li><a href="#" class="hover:underline">Shop for College</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-8">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">                        
+                                <span class="text-[12px] text-black">For Healthcare</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-8" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Apple in Healthcare</a></li>
+                                    <li><a href="#" class="hover:underline">Health on Apple Watch</a></li>
+                                    <li><a href="#" class="hover:underline">Health Records on iPhone</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-9">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">
+                                <span class="text-[12px] text-black">For Government</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-9" class="hidden">
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Shop for Government</a></li>
+                                    <li><a href="#" class="hover:underline">Shop for Veterans and Military</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 id="accordion-flush-heading-10">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">
+                                <span class="text-[12px] text-black">Apple Values</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-10" class="hidden" >
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Accessibility</a></li>
+                                    <li><a href="#" class="hover:underline">Education</a></li>
+                                    <li><a href="#" class="hover:underline">Environment</a></li>
+                                    <li><a href="#" class="hover:underline">Inclusion and Diversity</a></li>
+                                    <li><a href="#" class="hover">Privacy</a></li>
+                                    <li><a href="#" class="hover:underline">Supplier Responsibility</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h2 id="accordion-flush-heading-11">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn">
+                                <span class="text-[12px] text-black">About Apple</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-11" class="hidden" >
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Newsroom</a></li>
+                                    <li><a href="#" class="hover:underline">Apple Leadership</a></li>
+                                    <li><a href="#" class="hover:underline">Career Opportunities</a></li>
+                                    <li><a href="#" class="hover:underline">Investors</a></li>
+                                    <li><a href="#" class="hover:underline">Events</a></li>
+                                    <li><a href="#" class="hover:underline">Contact Apple</a></li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <h2 id="accordion-flush-heading-12">
+                            <button type="button" class="flex items-center justify-between w-full py-2 font-normal rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3 accordion-btn" >
+                                <span class="text-[12px] text-black">Apple Info</span>
+                                <svg data-accordion-icon class="w-2 h-2 rotate-180 shrink-0 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-12" class="hidden" >
+                            <div class="py-5 border-b border-gray-200 dark:border-gray-700 ml-[20px]">
+                                <ul class="space-y-2 text-[13px] text-[#767678]">
+                                    <li><a href="#" class="hover:underline">Legal</a></li>
+                                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                                    <li><a href="#" class="hover:underline">Accessibility</a></li>
+                                    <li><a href="#" class="hover:underline">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="pt-[37px]">
+                        <div class="mb-[16px] pb-[19px] border-b border-gray-300 hover:underline space-y-2 me-[20px] text-[12px] text-[#767678]" x-ms-format-detection="none">
+                            More ways to shop: 
+                            <a href="/retail/" class="text-blue-600 underline">Find an Apple Store</a> or <a href="https://locate.apple.com/" class="text-blue-600 underline">other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+                        </div>
+                        <div class="">
+
+                            <div class=" hover:underline mb-[16px] me-[20px] text-[12px] text-[#767678]">
+                                <div class="float-left max-h-[9999px] me-[30px] mt-[5px]">Copyright © 2024 Apple Inc. All rights reserved.
+                                </div>
+                                <ul class="float-left relative top-[-5px] z-[1] me-[30px] mt-[5px]" role="list">
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/legal/privacy/" >Privacy Policy |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/legal/internet-services/terms/site.html">Terms of Use |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/us/shop/goto/help/sales_refunds">Sales and Refunds |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/legal/">Legal |</a>
+                                    </li>
+                                    <li class="relative me-[6px] inline-block mt-[5px]" role="listitem">
+                                        <a href="/sitemap/" >Site Map</a>
+                                    </li>
+                                </ul>
+                            </div>
+            
+                            <div class="ac-gf-footer-locale inline-block">
+                                <a class="ac-gf-footer-locale-link relative me-[20px] text-[12px] text-[#767678] ml-[120px]" href="/choose-country-region/">United States</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+
+        <!-- end footer for medium screen and small screen -->
+
+    </div>
+<!-- end footnote and footer -->
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- footer functionality -->
+<script src="footer.js"></script>
 
 
 
