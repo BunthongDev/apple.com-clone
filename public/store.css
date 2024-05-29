@@ -1,4 +1,4 @@
-/* Add this to your custom CSS file */
+/* hide scroll bar */
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
